@@ -5,6 +5,7 @@ and for the multiples of five, print "Buzz". For numbers that are multiples of b
 
 
 # Optimized
+# O(n) - one fewer condition checks
 def fizzbuzz(n):
     for i in range(1, n):
         output = ""
@@ -21,6 +22,7 @@ def fizzbuzz(n):
         print(output)
 
 
+# O(n)
 def fizzbuzz_not_optimized(n):
     for i in range(1, n):
         if i % 3 == 0 and i % 5 == 0:
