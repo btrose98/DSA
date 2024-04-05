@@ -1,7 +1,9 @@
 """
     Merge Sort:
     - follows the divide-and-conquer paradigm.
-    - O(n log n), one of the most efficient sorting algorithms for general-purpose sorting.
+    - Predictable, O(n log n) in all cases, one of the most efficient sorting algorithms for general-purpose sorting.
+    - Requires additional memory space for temporary array.
+    - Used for external sorting, where data is stored on disk and cannot fit entirely into memory.
 
     Steps:
     1. Divide:

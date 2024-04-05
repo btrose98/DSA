@@ -1,7 +1,10 @@
 """
     Quick Sort:
     - follows the divide-and-conquer paradigm.
-    - Average & Best = O(n log n), Worst = O(n^2)
+    - Average & Best = O(n log n), Worst = O(n^2).
+    - In-place sorting, does not require additional memory space.
+    - Adaptive, improves when input data is partially sorted.
+    - Commonly used in sorting libraries and functions in programming languages like Python and Java.
 
     Steps:
     1. Choose a pivot:
